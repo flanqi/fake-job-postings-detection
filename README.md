@@ -8,7 +8,7 @@ python main.py lr # logistic regression
 python main.py svm # svm
 python main.py cnn # cnn
 python main.py multimodal --method svm # combinig text and meta features using svm
-python main.py multimodal --method svm # combinig text and meta features using logistic regression
+python main.py multimodal --method lr # combinig text and meta features using logistic regression
 ```
 The best models for each architecture is saved into folder `output`. The best-performing model is `output/cnn_64_16_4.pickle`.
 
