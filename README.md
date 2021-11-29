@@ -2,7 +2,8 @@
 ## Directory structure 
 ```
 ├── README.md                         <- You are here
-├── data                              <- Folder that contains data used 
+├── data/                             <- Folder that contains data used
+├── output/                           <- Folder containing best-performance model objects
 ├── notebooks/                        <- Folder that contains notebooks used in development
 │   ├── eda.ipynb                     <- Notebook for EDA
 │   ├── multimodal_modeling.ipynb     <- Notebook for testing multimodal modeling
