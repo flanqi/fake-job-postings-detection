@@ -1,4 +1,17 @@
 # Fake Job Postings Detection
+## Directory structure 
+```
+├── README.md                         <- You are here
+├── data                              <- Folder that contains data used 
+├── notebooks/                        <- Folder that contains notebooks used in development
+│   ├── eda.ipynb                     <- Notebook for EDA
+│   ├── multimodal_modeling.ipynb     <- Notebook for testing multimodal modeling
+├── src/                              <- Source scripts for data preprocessing and model training 
+├── api.py                            <- Flask wrapper for running the model
+├── client.py                         <- Client requesting inference
+├── main.py                           <- Simplifies the execution of one or more of the src scripts
+├── paper.pdf                         <- Project report
+```
 
 ## Model Training
 
